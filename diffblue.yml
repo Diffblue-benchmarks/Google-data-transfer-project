@@ -172,13 +172,3 @@ phases:
       cover-function-only: false
       # instrument the file as opposed to the function only
       cover-only: file
-units:
- - target:
-   - dir: portability-transfer/build/classes/java/main
-     file: org/datatransferproject/transfer/JobMetadata.class
-     sourceDir: portability-transfer/src/main/java
-     sourceFile: org/datatransferproject/transfer/JobMetadata.java
-   - dir: libraries/logging/build/classes/java/main
-     file: org/datatransferproject/logging/EncryptingLayout.class
-     sourceDir: libraries/logging/src/main/java
-     sourceFile: org/datatransferproject/logging/EncryptingLayout.java
